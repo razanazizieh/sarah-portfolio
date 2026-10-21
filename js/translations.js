@@ -8,6 +8,8 @@ const translations = {
       project3: "Case Study: Vehicle Market | Sarah Sabouni",
       project4: "Case Study: Mood Classifier | Sarah Sabouni",
       project5: "Case Study: Sales Intelligence | Sarah Sabouni",
+      project6:
+        "Case Study: Interactive Higher Education Cost Analysis | Sarah Sabouni",
       privacy: "Privacy Policy | Sarah Sabouni - Data Scientist",
       legal: "Legal Notice & Impressum | Sarah Sabouni - Data Scientist",
       error404: "404: Page Not Found | Sarah Sabouni",
@@ -94,8 +96,8 @@ const translations = {
         music: {
           title: "AI Music Mood Classifier",
         },
-        sales: {
-          title: "Sales Dashboard (Power BI)",
+        europe_cost: {
+          title: "Studying in Europe: Cost Overview (Power BI)",
         },
       },
     },
@@ -150,6 +152,10 @@ const translations = {
         sales: {
           title: "Executive Sales Intelligence",
           desc: "Interactive Power BI dashboard using DAX and Power Query to transform raw retail data into actionable business KPIs and regional insights.",
+        },
+        europe_cost: {
+          title: "Studying in Europe: Cost Overview",
+          desc: "Interactive Power BI dashboard analyzing higher education tuition, living costs, and country affordability across Europe.",
         },
       },
       cta_view: "VIEW CASE STUDY",
@@ -390,6 +396,45 @@ const translations = {
         takeaway:
           "Takeaway: This project highlights my ability to use business intelligence to communicate insights and support strategic decision-making.",
       },
+      // project6
+      europe_cost: {
+        label: "Data Visualization & Dashboards Case Study",
+        title: "Studying in Europe: Cost Overview",
+        subtitle:
+          "Transforming international education cost data into actionable insights with Power BI.",
+        location_tag: "Case Study: Interactive Higher Education Cost Analysis",
+        context_title: "The Context",
+        context_p:
+          "Studying abroad is a major financial decision for international students. Tuition fees, accommodation costs, insurance, and visa expenses vary significantly between countries and universities, making it difficult to compare study destinations effectively.",
+        objective_title: "The Objective",
+        objective_p:
+          "Develop an interactive BI dashboard to analyze and compare the overall cost of studying in Europe. The goal was to identify affordable destinations, understand cost patterns, and support students in making informed educational decisions.",
+        approach_title: "The Approach",
+        approach_p:
+          "I designed an interactive dashboard in Power BI using Power Query for data preparation and DAX for calculating custom measures such as average program cost and counts of countries and universities. The dashboard structure enables filtering by country, degree level, and institution while supporting geographic and financial comparisons.",
+        results_title: "Results & Performance",
+        impact_label: "Strategic Impact",
+        impact_p:
+          "The dashboard provides a comprehensive overview of study-related expenses across Europe. It enables users to quickly identify cost differences between countries, evaluate tuition and living expenses, and explore universities and programs through interactive visualizations.",
+        tools_label: "BI Tools Used",
+        insight_title: "Insights & Future Work",
+        insight_label: "BI Case Study Insight",
+        insight_p:
+          "This study demonstrates how interactive dashboards can simplify complex educational cost data and support evidence-based decision making. By combining financial indicators with geographic information, users gain a clearer understanding of the affordability of higher education in Europe.",
+        roadmap_title: "The Roadmap",
+        roadmap_item1:
+          "Integrating scholarship and financial aid information to improve affordability analysis.",
+        roadmap_item2:
+          "Adding inflation-adjusted cost projections and forecasting models.",
+        roadmap_item3:
+          "Connecting live data sources to monitor changes in tuition fees and living expenses in real time.",
+        github_title: "Project Repository & Documentation",
+        github_p:
+          "Explore the full project on GitHub, including the Power BI source file and data model.",
+        github_btn: "VIEW REPOSITORY ON GITHUB",
+        takeaway:
+          "Takeaway: This project highlights my ability to use data visualization, business intelligence, and dashboard design to communicate insights and support strategic decision-making.",
+      },
     },
     legal: {
       back: "Back to Home",
@@ -434,6 +479,8 @@ const translations = {
       project3: "Fallstudie: Fahrzeugmarkt | Sarah Sabouni",
       project4: "Fallstudie: Stimmungsklassifizierung | Sarah Sabouni",
       project5: "Fallstudie: Verkaufsanalyse | Sarah Sabouni",
+      project6:
+        "Fallstudie: Interaktive Analyse der Kosten für Hochschulbildung | Sarah Sabouni",
       privacy: "Datenschutzerklärung | Sarah Sabouni - Data Scientist",
       legal: "Impressum | Sarah Sabouni - Data Scientist",
       error404: "404: Seite nicht gefunden | Sarah Sabouni",
@@ -521,8 +568,8 @@ const translations = {
         music: {
           title: "KI-Musik-Stimmungsklassifizierer",
         },
-        sales: {
-          title: "Verkaufs-Dashboard (Power BI)",
+        europe_cost: {
+          title: "Studieren in Europa: Kostenübersicht (Power BI)",
         },
       },
     },
@@ -578,6 +625,10 @@ const translations = {
         sales: {
           title: "Executive Sales Intelligence",
           desc: "Interaktives Power BI-Dashboard unter Verwendung von DAX und Power Query zur Transformation von Einzelhandelsdaten in geschäftskritische KPIs.",
+        },
+        europe_cost: {
+          title: "Studieren in Europa: Kostenübersicht",
+          desc: "Interaktives Power BI-Dashboard zur Analyse von Studiengebühren, Lebenshaltungskosten und der Erschwinglichkeit von Ländern in Europa.",
         },
       },
       cta_view: "FALLSTUDIE ANSEHEN",
@@ -824,6 +875,46 @@ const translations = {
         github_btn: "REPOSITORY AUF GITHUB ANSEHEN",
         takeaway:
           "Fazit: Dieses Projekt unterstreicht meine Fähigkeit, Business Intelligence zu nutzen, um strategische Entscheidungen zu unterstützen.",
+      },
+      // project6
+      europe_cost: {
+        label: "Fallstudie: Datenvisualisierung und Dashboards",
+        title: "Studieren in Europa: Kostenübersicht",
+        subtitle:
+          "Transformation von Daten zu internationalen Bildungskosten in aussagekräftige Erkenntnisse mit Power BI.",
+        location_tag:
+          "Fallstudie: Interaktive Analyse der Kosten für Hochschulbildung",
+        context_title: "Der Kontext",
+        context_p:
+          "Ein Studium im Ausland ist für internationale Studierende eine bedeutende finanzielle Entscheidung. Studiengebühren, Unterkunftskosten, Versicherungen und Visagebühren unterscheiden sich erheblich zwischen Ländern und Universitäten, was einen effektiven Vergleich von Studienstandorten erschwert.",
+        objective_title: "Das Ziel",
+        objective_p:
+          "Entwicklung eines interaktiven BI-Dashboards zur Analyse und zum Vergleich der Gesamtkosten eines Studiums in Europa. Ziel war es, kostengünstige Studienziele zu identifizieren, Kostenmuster zu verstehen und Studierende bei fundierten Bildungsentscheidungen zu unterstützen.",
+        approach_title: "Der Ansatz",
+        approach_p:
+          "Ich entwickelte ein interaktives Dashboard in Power BI und nutzte Power Query zur Datenaufbereitung sowie DAX zur Berechnung benutzerdefinierter Kennzahlen, wie beispielsweise der durchschnittlichen Programmkosten sowie der Anzahl von Ländern und Universitäten. Die Struktur des Dashboards ermöglicht Filterungen nach Land, Abschlussniveau und Hochschule und unterstützt gleichzeitig geografische sowie finanzielle Vergleiche.",
+        results_title: "Ergebnisse & Leistung",
+        impact_label: "Strategischer Mehrwert",
+        impact_p:
+          "Das Dashboard bietet einen umfassenden Überblick über studienbezogene Ausgaben in Europa. Es ermöglicht den Nutzern, Kostenunterschiede zwischen Ländern schnell zu erkennen, Studien- und Lebenshaltungskosten zu bewerten sowie Universitäten und Studienprogramme mithilfe interaktiver Visualisierungen zu erkunden.",
+        tools_label: "Verwendete BI-Werkzeuge",
+        insight_title: "Erkenntnisse & zukünftige Arbeiten",
+        insight_label: "Erkenntnisse aus der BI-Fallstudie",
+        insight_p:
+          "Diese Studie zeigt, wie interaktive Dashboards komplexe Daten zu Bildungskosten vereinfachen und eine evidenzbasierte Entscheidungsfindung unterstützen können. Durch die Kombination finanzieller Kennzahlen mit geografischen Informationen erhalten Nutzer ein klareres Verständnis der Erschwinglichkeit von Hochschulbildung in Europa.",
+        roadmap_title: "Die Roadmap",
+        roadmap_item1:
+          "Integration von Informationen zu Stipendien und finanziellen Fördermöglichkeiten zur Verbesserung der Analyse der Erschwinglichkeit.",
+        roadmap_item2:
+          "Erweiterung um inflationsbereinigte Kostenprognosen und Vorhersagemodelle.",
+        roadmap_item3:
+          "Anbindung von Live-Datenquellen, um Veränderungen bei Studiengebühren und Lebenshaltungskosten in Echtzeit zu überwachen.",
+        github_title: "Technische Umsetzung & Quellcode",
+        github_p:
+          "Erkunden Sie das gesamte Projekt auf GitHub, einschließlich der Power BI-Quelldatei und des Datenmodells.",
+        github_btn: "REPOSITORY AUF GITHUB ANSEHEN",
+        takeaway:
+          "Fazit: Dieses Projekt unterstreicht meine Fähigkeit, Datenvisualisierung, Business Intelligence und Dashboard-Design zu nutzen, um Erkenntnisse zu vermitteln und strategische Entscheidungen zu unterstützen.",
       },
     },
     legal: {
