@@ -6,48 +6,47 @@ This project is a premium, performance-optimized professional showcase engineere
 ---
 
 ## 2. Engineering Methodology
-The project follows a **Hybrid Development Workflow**, prioritizing technical precision and manual customization over automated templates.
+The project was hand-coded and engineered from the ground up, prioritizing technical precision, clean code architecture, and bespoke UI customization.
 
-*   **Architectural Foundation**: Leveraged **Stitches** for initial UI orchestration and Tailwind-based styling to ensure a consistent design token system.
-*   **Bespoke Manual Builds**: While the core layout utilized Stitches, the following modules were **manually designed and engineered** to ensure high fidelity and unique functionality:
-    *   **Case Study Engine**: Specialized technical layouts for project deep-dives, including NO2 Prediction and AI Music Mood Classification.
-    *   **Utility Infrastructure**: Custom-built **404 error page**, **Legal Notice**, and **Privacy Policy** modules compliant with professional German market standards.
-*   **Code Refinement**: Extensively refactored generated output within **Visual Studio Code** to implement complex CSS animations and neon-gradient aesthetics.
+- **Hand-Crafted Architecture**: Built using a tailored component strategy and Tailwind-optimized CSS to ensure a consistent, responsive design token system across all devices.
+- **Custom-Engineered Pages & Modules**:
+  * **Case Study Engine**: Specialized technical layouts hand-coded for project deep-dives, including the Power BI European Cost Dashboard, NO₂ Prediction, and Deep Mood Audio Classifier.
+  * **Utility Infrastructure**: Custom-built **404 error page**, **Legal Notice**, and **Privacy Policy** modules designed for full regulatory compliance.
+- **Code Refinement**: Hand-crafted in **Visual Studio Code**, featuring optimized CSS animations, dynamic gradients, and crisp layout transitions.
 
 ---
 
 ## 3. Technical Standards
-*   **Multilingual Engine (EN/DE)**: Developed a seamless, SPA-style language switching system utilizing a dedicated JavaScript translation architecture.
-*   **SEO & Accessibility (A11y)**: Built with a "Standards First" mindset to ensure high search engine visibility and inclusive access.
-*   **Performance & Efficiency**: Optimized for ultra-fast loading speeds and fluid responsiveness across Desktop, Tablet, and Mobile devices.
-*   **Scalability**: The modular architecture is designed for future expansion, including pre-planned support for a Light Mode transition.
+- **Multilingual Engine (EN/DE)**: Developed a seamless, SPA-style language switching system utilizing a dedicated JavaScript translation dictionary (`translations.js`).
+- **SEO & Accessibility (A11y)**: Built with semantic HTML5 landmarks and structured metadata for optimized accessibility and search engine visibility.
+- **Performance & Efficiency**: Optimized for ultra-fast loading speeds, zero-overhead client-side logic, and fluid responsiveness.
+- **Scalability**: Clean, modular structure engineered for easy maintenance and future project additions.
 
 ---
 
 ## 4. Visual Identity & Design System
-*   **Color Mode**: Dark Mode.
-*   **Primary Palette**: `#060E20` (Deep Dark Blue) with `#A78BFA` (Vibrant Purple) accents.
-*   **Typography**: **Manrope** for architectural headings and **Inter** for high technical readability.
+- **Color Mode**: Dark Mode.
+- **Primary Palette**: Deep Dark Blue (`#060E20`) with Vibrant Purple (`#A78BFA`) accents.
+- **Typography**: **Manrope** for structured headings and **Inter** for technical readability.
 
 ---
 
 ## 5. Project Anatomy
-Based on the production file structure:
-*   **`/Projects`**: Custom-engineered deep-dive case studies.
-*   **`/js/translations.js`**: Dedicated logic for real-time bilingual state management.
-*   **`/assets` & `/images`**: Optimized SVG-based data visualizations and neural network schematics.
-*   **`404.html`, `legal.html`, `privacy.html`**: Production-ready utility pages built for professional compliance.
+Production file structure:
+- **`/Projects`**: Custom hand-coded deep-dive case study pages (`project1-casestudy.html` to `project6-casestudy.html`).
+- **`/js/translations.js`**: Dedicated JavaScript logic managing real-time bilingual state switching.
+- **`/assets`**: Production assets including optimized visual graphics and video preview streams.
+- **`index.html`, `projects.html`, `404.html`, `legal.html`, `privacy.html`**: Hand-coded production templates.
 
 ---
 
 ## 6. Technology Stack
-*   **Core**: HTML5, CSS3 (Tailwind Optimized), Vanilla JavaScript (ES6+).
-*   **Interactivity**: Integrated **AOS.js** for staggered scroll animations and **Swiper.js** for interactive testimonial modules.
-*   **Workflow & Tools**: 
-    *   **Figma**: UI/UX design and prototyping.
-    *   **Stitches**: Initial Design-to-Code orchestration.
-    *   **Visual Studio Code**: Primary IDE for custom logic, refactoring, and engineering.
-    *   **Google AI Studio**: Workflow and logic optimization.
+- **Core**: Semantic HTML5, CSS3 (Tailwind Optimized), Vanilla JavaScript (ES6+).
+- **Interactivity**: Integrated **AOS.js** for scroll animations and **Swiper.js** for interactive testimonial sliders.
+- **Workflow & Environment**:
+  * **Figma**: UI/UX layout prototyping and asset preparation.
+  * **Visual Studio Code**: Primary IDE for hand-coded development, logic structure, and refactoring.
+  * **Git & GitHub**: Version control and GitHub Pages deployment.
 
 ---
 *Architected and Developed by Razan Azizieh | 2026*
