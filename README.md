@@ -1,4 +1,4 @@
-# Data Science Portfolio System | High-Fidelity Engineering & Multilingual Infrastructure
+# Portfolio website for a data scientist (EN/DE)
 
 ## 1. Project Overview
 This project is a premium, performance-optimized professional showcase engineered for **Sarah Sabouni**, a Data Science and Machine Learning specialist. Moving beyond standard tech portfolios, the design system blends rigorous, structured logic with a high-end editorial aesthetic to feel like a "premium laboratory"—precise, dark, and sophisticated.
@@ -6,7 +6,7 @@ This project is a premium, performance-optimized professional showcase engineere
 ---
 
 ## 2. Engineering Methodology
-The project was hand-coded and engineered from the ground up, prioritizing technical precision, clean code architecture, and bespoke UI customization.
+The project was designed and directed by me. The code was built with AI tools from my prompts and refined by me. Prioritizing technical precision, clean code architecture, and bespoke UI customization.
 
 - **Hand-Crafted Architecture**: Built using a tailored component strategy and Tailwind-optimized CSS to ensure a consistent, responsive design token system across all devices.
 - **Custom-Engineered Pages & Modules**:
@@ -49,4 +49,4 @@ Production file structure:
   * **Git & GitHub**: Version control and GitHub Pages deployment.
 
 ---
-*Architected and Developed by Razan Azizieh | 2026*
+*Designed and developed by Razan Azizieh | 2026*
